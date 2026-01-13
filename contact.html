@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Aims Home Tuition - Get in touch with us for any queries or support.">
+    <title>Contact Us - Aims Home Tuition</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="font-['Inter'] bg-gray-50">
+
+    <!-- Navigation Header -->
+    <nav id="navbar" class="fixed w-full top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-white">
+                        <i class="fas fa-graduation-cap mr-2"></i>Aims Tuition
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="nav-link text-white hover:text-blue-200 transition-colors">Home</a>
+                    <a href="about.html" class="nav-link text-white hover:text-blue-200 transition-colors">About Us</a>
+                    <a href="parents.html" class="nav-link text-white hover:text-blue-200 transition-colors">For
+                        Parents</a>
+                    <a href="tutors.html" class="nav-link text-white hover:text-blue-200 transition-colors">For
+                        Tutors</a>
+                    <a href="contact.html"
+                        class="nav-link active text-white hover:text-blue-200 transition-colors">Contact</a>
+                    <a href="parents.html"
+                        class="bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transition-all shadow-lg">
+                        Book a Tutor
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-900 border-t border-blue-800">
+            <div class="px-4 pt-2 pb-4 space-y-2">
+                <a href="index.html"
+                    class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">Home</a>
+                <a href="about.html"
+                    class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">About Us</a>
+                <a href="parents.html"
+                    class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">For Parents</a>
+                <a href="tutors.html" class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">For
+                    Tutors</a>
+                <a href="contact.html"
+                    class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">Contact</a>
+                <a href="parents.html"
+                    class="block px-4 py-3 bg-white text-blue-900 rounded font-semibold text-center">Book a Tutor</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Get In Touch</h1>
+            <p class="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
+                We're here to help. Reach out to us for any questions or support
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Information Cards -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Phone -->
+                <div
+                    class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 text-center hover:shadow-xl transition-shadow">
+                    <div class="bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-phone text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Call Us</h3>
+                    <p class="text-gray-600 mb-4">Mon-Sat: 9:00 AM - 8:00 PM</p>
+                    <a href="tel:+919876543210"
+                        class="text-2xl font-bold text-blue-900 hover:text-blue-700 transition-colors">
+                        +91 98765 43210
+                    </a>
+                </div>
+
+                <!-- Email -->
+                <div
+                    class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 text-center hover:shadow-xl transition-shadow">
+                    <div class="bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-envelope text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Email Us</h3>
+                    <p class="text-gray-600 mb-4">We'll respond within 24 hours</p>
+                    <a href="mailto:info@aimstuition.com"
+                        class="text-xl font-bold text-blue-900 hover:text-blue-700 transition-colors break-all">
+                        info@aimstuition.com
+                    </a>
+                </div>
+
+                <!-- Office -->
+                <div
+                    class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 text-center hover:shadow-xl transition-shadow">
+                    <div class="bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-map-marker-alt text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Visit Us</h3>
+                    <p class="text-gray-600 mb-4">Office Hours: 10 AM - 6 PM</p>
+                    <p class="text-lg text-gray-700 font-semibold">
+                        123 Education Street<br>
+                        Connaught Place<br>
+                        New Delhi - 110001
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Find Us on Map</h2>
+                <p class="text-xl text-gray-600">Visit our office or find tutors in your area</p>
+            </div>
+
+            <div class="rounded-3xl overflow-hidden shadow-2xl">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.2873329633634!2d77.2090212!3d28.6139391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1234567890"
+                    width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-blue-50 to-white rounded-3xl shadow-2xl p-8 md:p-12">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Send Us a Message</h2>
+                    <p class="text-lg text-gray-600">Have a question? We'd love to hear from you</p>
+                </div>
+
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Your Name *</label>
+                            <input type="text" name="name" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
+                                placeholder="Enter your name">
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number *</label>
+                            <input type="tel" name="phone" required pattern="[0-9]{10}"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
+                                placeholder="10-digit mobile number">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address *</label>
+                        <input type="email" name="email" required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
+                            placeholder="your.email@example.com">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Subject *</label>
+                        <select name="subject" required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white">
+                            <option value="">Select Subject</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Request a Tutor">Request a Tutor</option>
+                            <option value="Join as Tutor">Join as Tutor</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Complaint">Complaint</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Message *</label>
+                        <textarea name="message" required rows="6"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
+                            placeholder="Type your message here..."></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit"
+                            class="bg-blue-900 text-white px-12 py-4 rounded-full font-bold text-lg hover:bg-blue-800 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
+                            <i class="fas fa-paper-plane mr-2"></i>Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-600">Quick answers to common questions</p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- FAQ 1 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <button
+                        class="faq-question w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="text-lg font-semibold text-gray-900">How do I request a tutor?</span>
+                        <i class="fas fa-chevron-down text-blue-900"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Simply fill out the inquiry form on our "For Parents" page with your requirements. Our team
+                            will contact you within 24 hours to understand your needs better and arrange a free demo
+                            class with a suitable tutor.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <button
+                        class="faq-question w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="text-lg font-semibold text-gray-900">What are your fees?</span>
+                        <i class="fas fa-chevron-down text-blue-900"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Our fees vary based on the class, subject, and tutor's experience. We offer competitive and
+                            transparent pricing with no hidden charges. Contact us for a detailed quote based on your
+                            specific requirements.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <button
+                        class="faq-question w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="text-lg font-semibold text-gray-900">Are all tutors verified?</span>
+                        <i class="fas fa-chevron-down text-blue-900"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes, absolutely! Every tutor in our network undergoes thorough background verification
+                            including identity checks, educational qualification verification, and reference checks.
+                            Your child's safety is our top priority.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <button
+                        class="faq-question w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="text-lg font-semibold text-gray-900">Can I change the tutor if not
+                            satisfied?</span>
+                        <i class="fas fa-chevron-down text-blue-900"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes, we offer tutor replacement if you're not satisfied with the teaching quality or
+                            compatibility. Simply contact us and we'll arrange an alternative tutor at no extra cost.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <button
+                        class="faq-question w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="text-lg font-semibold text-gray-900">How can I join as a tutor?</span>
+                        <i class="fas fa-chevron-down text-blue-900"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Visit our "For Tutors" page and fill out the registration form with your qualifications and
+                            experience. Our team will review your application and contact you within 48 hours for the
+                            next steps.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="py-20 bg-blue-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Connect With Us</h2>
+            <p class="text-xl text-blue-100 mb-10">
+                Follow us on social media for updates, tips, and educational content
+            </p>
+            <div class="flex justify-center space-x-6">
+                <a href="#"
+                    class="bg-white text-blue-900 w-16 h-16 rounded-full flex items-center justify-center hover:bg-blue-50 transition-all transform hover:scale-110 shadow-xl">
+                    <i class="fab fa-facebook-f text-2xl"></i>
+                </a>
+                <a href="#"
+                    class="bg-white text-blue-900 w-16 h-16 rounded-full flex items-center justify-center hover:bg-blue-50 transition-all transform hover:scale-110 shadow-xl">
+                    <i class="fab fa-twitter text-2xl"></i>
+                </a>
+                <a href="#"
+                    class="bg-white text-blue-900 w-16 h-16 rounded-full flex items-center justify-center hover:bg-blue-50 transition-all transform hover:scale-110 shadow-xl">
+                    <i class="fab fa-instagram text-2xl"></i>
+                </a>
+                <a href="#"
+                    class="bg-white text-blue-900 w-16 h-16 rounded-full flex items-center justify-center hover:bg-blue-50 transition-all transform hover:scale-110 shadow-xl">
+                    <i class="fab fa-linkedin-in text-2xl"></i>
+                </a>
+                <a href="#"
+                    class="bg-white text-blue-900 w-16 h-16 rounded-full flex items-center justify-center hover:bg-blue-50 transition-all transform hover:scale-110 shadow-xl">
+                    <i class="fab fa-youtube text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <!-- About -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        <i class="fas fa-graduation-cap mr-2"></i>Aims Tuition
+                    </h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Connecting passionate educators with eager learners since 2015. Quality home tuition services
+                        you can trust.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About Us</a>
+                        </li>
+                        <li><a href="parents.html" class="text-gray-400 hover:text-white transition-colors">For
+                                Parents</a></li>
+                        <li><a href="tutors.html" class="text-gray-400 hover:text-white transition-colors">For
+                                Tutors</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-phone mt-1 mr-3 text-blue-400"></i>
+                            <span class="text-gray-400">+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-blue-400"></i>
+                            <span class="text-gray-400">info@aimstuition.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-blue-400"></i>
+                            <span class="text-gray-400">New Delhi, India</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-blue-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-300 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-pink-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-pink-500 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-blue-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Aims Home Tuition. All rights reserved. Hosted on GitHub Pages.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

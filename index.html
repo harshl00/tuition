@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aims Home Tuition - Expert home tutors at your doorstep. Personalized 1-on-1 learning for all grades and subjects.">
+    <title>Aims Home Tuition - Expert Home Tutors at Your Doorstep</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-['Inter'] bg-gray-50">
+    
+    <!-- Navigation Header -->
+    <nav id="navbar" class="fixed w-full top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-white">
+                        <i class="fas fa-graduation-cap mr-2"></i>Aims Tuition
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="nav-link active text-white hover:text-blue-200 transition-colors">Home</a>
+                    <a href="about.html" class="nav-link text-white hover:text-blue-200 transition-colors">About Us</a>
+                    <a href="parents.html" class="nav-link text-white hover:text-blue-200 transition-colors">For Parents</a>
+                    <a href="tutors.html" class="nav-link text-white hover:text-blue-200 transition-colors">For Tutors</a>
+                    <a href="contact.html" class="nav-link text-white hover:text-blue-200 transition-colors">Contact</a>
+                    <a href="parents.html" class="bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transition-all shadow-lg">
+                        Book a Tutor
+                    </a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-900 border-t border-blue-800">
+            <div class="px-4 pt-2 pb-4 space-y-2">
+                <a href="index.html" class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">Home</a>
+                <a href="about.html" class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">About Us</a>
+                <a href="parents.html" class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">For Parents</a>
+                <a href="tutors.html" class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">For Tutors</a>
+                <a href="contact.html" class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">Contact</a>
+                <a href="parents.html" class="block px-4 py-3 bg-white text-blue-900 rounded font-semibold text-center">Book a Tutor</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white pt-32 pb-20 overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-white rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-blue-400 rounded-full filter blur-3xl"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                        Expert Home Tutors at Your Doorstep
+                    </h1>
+                    <p class="text-xl md:text-2xl text-blue-100 mb-8">
+                        Connecting passionate educators with eager learners. Personalized 1-on-1 learning for all grades and subjects.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <a href="parents.html" class="bg-white text-blue-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
+                            <i class="fas fa-search mr-2"></i>Find a Tutor
+                        </a>
+                        <a href="tutors.html" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-900 transition-all">
+                            <i class="fas fa-user-plus mr-2"></i>Become a Tutor
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="relative">
+                        <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-2xl">
+                            <i class="fas fa-book-reader text-9xl text-white/80"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Statistics Bar -->
+    <section class="bg-white py-16 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="stat-item">
+                    <div class="bg-blue-50 rounded-2xl p-8 hover:shadow-xl transition-shadow">
+                        <i class="fas fa-users text-5xl text-blue-900 mb-4"></i>
+                        <div class="text-5xl font-bold text-blue-900 mb-2">
+                            <span class="counter" data-target="700">0</span>+
+                        </div>
+                        <p class="text-xl text-gray-600 font-medium">Happy Students</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="bg-blue-50 rounded-2xl p-8 hover:shadow-xl transition-shadow">
+                        <i class="fas fa-clock text-5xl text-blue-900 mb-4"></i>
+                        <div class="text-5xl font-bold text-blue-900 mb-2">
+                            <span class="counter" data-target="200000">0</span>+
+                        </div>
+                        <p class="text-xl text-gray-600 font-medium">Hours Taught</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="bg-blue-50 rounded-2xl p-8 hover:shadow-xl transition-shadow">
+                        <i class="fas fa-chalkboard-teacher text-5xl text-blue-900 mb-4"></i>
+                        <div class="text-5xl font-bold text-blue-900 mb-2">
+                            <span class="counter" data-target="400">0</span>+
+                        </div>
+                        <p class="text-xl text-gray-600 font-medium">Qualified Tutors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Why Choose Us</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    We are committed to providing the highest quality home tuition services with verified tutors and personalized learning experiences.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-user-check text-3xl text-blue-900"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Verified Tutors</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        100% background checked and qualified educators. Every tutor undergoes rigorous verification to ensure your child's safety and quality education.
+                    </p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-calendar-alt text-3xl text-blue-900"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Flexible Timing</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Classes scheduled at your convenience. Choose the time that works best for your family's schedule with no rigid commitments.
+                    </p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-rupee-sign text-3xl text-blue-900"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Affordable Fees</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Quality education that fits your budget. Transparent pricing with no hidden charges. Get the best value for your investment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects We Cover -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Subjects We Cover</h2>
+                <p class="text-xl text-gray-600">Comprehensive tutoring for all major subjects</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
+                    <i class="fas fa-calculator text-4xl text-blue-900 mb-3"></i>
+                    <h4 class="font-semibold text-gray-900">Mathematics</h4>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
+                    <i class="fas fa-flask text-4xl text-blue-900 mb-3"></i>
+                    <h4 class="font-semibold text-gray-900">Science</h4>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
+                    <i class="fas fa-book text-4xl text-blue-900 mb-3"></i>
+                    <h4 class="font-semibold text-gray-900">English</h4>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
+                    <i class="fas fa-language text-4xl text-blue-900 mb-3"></i>
+                    <h4 class="font-semibold text-gray-900">Languages</h4>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
+                    <i class="fas fa-landmark text-4xl text-blue-900 mb-3"></i>
+                    <h4 class="font-semibold text-gray-900">Social Studies</h4>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
+                    <i class="fas fa-laptop-code text-4xl text-blue-900 mb-3"></i>
+                    <h4 class="font-semibold text-gray-900">Computer Science</h4>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
+                    <i class="fas fa-chart-line text-4xl text-blue-900 mb-3"></i>
+                    <h4 class="font-semibold text-gray-900">Commerce</h4>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
+                    <i class="fas fa-palette text-4xl text-blue-900 mb-3"></i>
+                    <h4 class="font-semibold text-gray-900">Arts</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Preview Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Serving Your City</h2>
+                <p class="text-xl text-gray-600">Find qualified tutors in your area</p>
+            </div>
+            
+            <div class="relative rounded-2xl overflow-hidden shadow-2xl">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.2873329633634!2d77.2090212!3d28.6139391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1234567890"
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+                <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+                    <a href="contact.html" class="bg-blue-900 text-white px-8 py-4 rounded-full font-semibold shadow-xl hover:bg-blue-800 transition-all inline-block">
+                        <i class="fas fa-map-marker-alt mr-2"></i>View Full Location
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Inquiry Form -->
+    <section class="py-20 bg-blue-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Quick Inquiry</h2>
+                <p class="text-xl text-blue-100">Get started with a free consultation today</p>
+            </div>
+            
+            <form action="mailto:info@aimstuition.com" method="post" enctype="text/plain" class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl">
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Parent Name</label>
+                        <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-white" placeholder="Enter your name">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Phone Number</label>
+                        <input type="tel" name="phone" required pattern="[0-9]{10}" class="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-white" placeholder="10-digit mobile number">
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-sm font-semibold mb-2">Student's Class/Grade</label>
+                    <select name="class" required class="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white focus:outline-none focus:ring-2 focus:ring-white">
+                        <option value="" class="text-gray-900">Select Class</option>
+                        <option value="1-5" class="text-gray-900">Class 1-5</option>
+                        <option value="6-8" class="text-gray-900">Class 6-8</option>
+                        <option value="9-10" class="text-gray-900">Class 9-10</option>
+                        <option value="11-12" class="text-gray-900">Class 11-12</option>
+                        <option value="college" class="text-gray-900">College/University</option>
+                    </select>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-all shadow-xl">
+                        <i class="fas fa-paper-plane mr-2"></i>Submit Inquiry
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">What Parents Say</h2>
+                <p class="text-xl text-gray-600">Real feedback from satisfied families</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">
+                        "The tutor assigned to my daughter is excellent. Her grades have improved significantly in just 3 months. Highly recommended!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-900 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            RS
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Rajesh Sharma</h4>
+                            <p class="text-sm text-gray-600">Parent, Class 10 Student</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">
+                        "Professional service and very responsive team. The tutor is punctual and my son actually enjoys studying now!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-900 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            PK
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Priya Kapoor</h4>
+                            <p class="text-sm text-gray-600">Parent, Class 7 Student</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">
+                        "Best decision we made for our child's education. The personalized attention has made all the difference."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-900 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            AM
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Amit Mehta</h4>
+                            <p class="text-sm text-gray-600">Parent, Class 12 Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <!-- About -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        <i class="fas fa-graduation-cap mr-2"></i>Aims Tuition
+                    </h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Connecting passionate educators with eager learners since 2015. Quality home tuition services you can trust.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="parents.html" class="text-gray-400 hover:text-white transition-colors">For Parents</a></li>
+                        <li><a href="tutors.html" class="text-gray-400 hover:text-white transition-colors">For Tutors</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-phone mt-1 mr-3 text-blue-400"></i>
+                            <span class="text-gray-400">+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-blue-400"></i>
+                            <span class="text-gray-400">info@aimstuition.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-blue-400"></i>
+                            <span class="text-gray-400">New Delhi, India</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Social Media -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="bg-blue-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-300 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="bg-pink-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-pink-500 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="bg-blue-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Aims Home Tuition. All rights reserved. Hosted on GitHub Pages.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

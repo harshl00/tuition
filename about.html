@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="About Aims Home Tuition - Learn about our mission, process, and commitment to quality education.">
+    <title>About Us - Aims Home Tuition</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="font-['Inter'] bg-gray-50">
+
+    <!-- Navigation Header -->
+    <nav id="navbar" class="fixed w-full top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-white">
+                        <i class="fas fa-graduation-cap mr-2"></i>Aims Tuition
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="nav-link text-white hover:text-blue-200 transition-colors">Home</a>
+                    <a href="about.html" class="nav-link active text-white hover:text-blue-200 transition-colors">About
+                        Us</a>
+                    <a href="parents.html" class="nav-link text-white hover:text-blue-200 transition-colors">For
+                        Parents</a>
+                    <a href="tutors.html" class="nav-link text-white hover:text-blue-200 transition-colors">For
+                        Tutors</a>
+                    <a href="contact.html" class="nav-link text-white hover:text-blue-200 transition-colors">Contact</a>
+                    <a href="parents.html"
+                        class="bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transition-all shadow-lg">
+                        Book a Tutor
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-900 border-t border-blue-800">
+            <div class="px-4 pt-2 pb-4 space-y-2">
+                <a href="index.html"
+                    class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">Home</a>
+                <a href="about.html"
+                    class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">About Us</a>
+                <a href="parents.html"
+                    class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">For Parents</a>
+                <a href="tutors.html" class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">For
+                    Tutors</a>
+                <a href="contact.html"
+                    class="block px-4 py-3 text-white hover:bg-blue-800 rounded transition-colors">Contact</a>
+                <a href="parents.html"
+                    class="block px-4 py-3 bg-white text-blue-900 rounded font-semibold text-center">Book a Tutor</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">About Aims Tuition</h1>
+            <p class="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
+                Bridging the gap between students and quality education since 2015
+            </p>
+        </div>
+    </section>
+
+    <!-- Mission Statement -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        At Aims Home Tuition, we believe that every student deserves access to quality education
+                        tailored to their unique learning style. Our mission is to connect passionate, qualified
+                        educators with eager learners in the comfort of their homes.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        We understand that traditional classroom settings don't work for everyone. That's why we've
+                        built a network of experienced tutors who provide personalized, one-on-one instruction that
+                        adapts to each student's pace and needs.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Our commitment goes beyond just academic excellence. We focus on building confidence, fostering
+                        curiosity, and developing lifelong learning skills that will serve our students well beyond
+                        their school years.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-12 text-center">
+                    <i class="fas fa-bullseye text-9xl text-blue-900 mb-6"></i>
+                    <h3 class="text-2xl font-bold text-gray-900">Empowering Students</h3>
+                    <p class="text-gray-700 mt-4">Through personalized education</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Our Core Values</h2>
+                <p class="text-xl text-gray-600">The principles that guide everything we do</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-shield-alt text-4xl text-blue-900"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Trust</h3>
+                    <p class="text-gray-600">Building lasting relationships through transparency and reliability</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-award text-4xl text-blue-900"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Excellence</h3>
+                    <p class="text-gray-600">Striving for the highest standards in education delivery</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-heart text-4xl text-blue-900"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Care</h3>
+                    <p class="text-gray-600">Treating every student with empathy and understanding</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-lightbulb text-4xl text-blue-900"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Innovation</h3>
+                    <p class="text-gray-600">Continuously improving our teaching methods</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Process -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">How It Works</h2>
+                <p class="text-xl text-gray-600">A simple, transparent process from inquiry to success</p>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline Line (Hidden on mobile) -->
+                <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-200"></div>
+
+                <!-- Step 1 -->
+                <div class="relative mb-12 md:mb-20">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div class="md:text-right">
+                            <div
+                                class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-lg inline-block">
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                                    <span class="text-blue-900">Step 1:</span> Submit Inquiry
+                                </h3>
+                                <p class="text-gray-700 leading-relaxed">
+                                    Fill out our simple inquiry form with your requirements. Tell us about the student's
+                                    grade, subjects needed, and preferred schedule.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center md:justify-start">
+                            <div
+                                class="bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-xl z-10">
+                                1
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative mb-12 md:mb-20">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div class="md:order-2">
+                            <div
+                                class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-lg inline-block">
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                                    <span class="text-blue-900">Step 2:</span> Free Demo Class
+                                </h3>
+                                <p class="text-gray-700 leading-relaxed">
+                                    We arrange a complimentary demo session with a carefully selected tutor. This allows
+                                    you to assess teaching style and compatibility.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="md:order-1 flex justify-center md:justify-end">
+                            <div
+                                class="bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-xl z-10">
+                                2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative mb-12 md:mb-20">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div class="md:text-right">
+                            <div
+                                class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-lg inline-block">
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                                    <span class="text-blue-900">Step 3:</span> Tutor Assignment
+                                </h3>
+                                <p class="text-gray-700 leading-relaxed">
+                                    Once you're satisfied, we finalize the schedule and formalize the arrangement. All
+                                    terms are clearly documented.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center md:justify-start">
+                            <div
+                                class="bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-xl z-10">
+                                3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="relative">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div class="md:order-2">
+                            <div
+                                class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-lg inline-block">
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                                    <span class="text-blue-900">Step 4:</span> Classes Begin
+                                </h3>
+                                <p class="text-gray-700 leading-relaxed">
+                                    Regular classes commence as per the agreed schedule. We provide ongoing support and
+                                    monitor progress throughout.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="md:order-1 flex justify-center md:justify-end">
+                            <div
+                                class="bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-xl z-10">
+                                4
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Safety -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Trust & Safety</h2>
+                <p class="text-xl text-gray-600">Your child's safety is our top priority</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-user-check text-3xl text-green-700"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Background Verification</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Every tutor undergoes comprehensive background checks including identity verification, address
+                        verification, and criminal record screening.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-certificate text-3xl text-blue-900"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Qualification Checks</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        We verify all educational credentials and teaching certifications. Only qualified professionals
+                        join our network.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-comments text-3xl text-purple-700"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Regular Feedback</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        We maintain regular communication with parents and monitor tutor performance through periodic
+                        reviews and feedback sessions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-blue-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Get Started?</h2>
+            <p class="text-xl text-blue-100 mb-10">
+                Join hundreds of satisfied families who trust Aims Tuition for their children's education
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="parents.html"
+                    class="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-all shadow-xl inline-block">
+                    <i class="fas fa-search mr-2"></i>Find a Tutor
+                </a>
+                <a href="contact.html"
+                    class="bg-transparent border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-900 transition-all inline-block">
+                    <i class="fas fa-phone mr-2"></i>Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <!-- About -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        <i class="fas fa-graduation-cap mr-2"></i>Aims Tuition
+                    </h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Connecting passionate educators with eager learners since 2015. Quality home tuition services
+                        you can trust.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About Us</a>
+                        </li>
+                        <li><a href="parents.html" class="text-gray-400 hover:text-white transition-colors">For
+                                Parents</a></li>
+                        <li><a href="tutors.html" class="text-gray-400 hover:text-white transition-colors">For
+                                Tutors</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-phone mt-1 mr-3 text-blue-400"></i>
+                            <span class="text-gray-400">+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-blue-400"></i>
+                            <span class="text-gray-400">info@aimstuition.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-blue-400"></i>
+                            <span class="text-gray-400">New Delhi, India</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-blue-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-300 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-pink-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-pink-500 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-blue-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Aims Home Tuition. All rights reserved. Hosted on GitHub Pages.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
