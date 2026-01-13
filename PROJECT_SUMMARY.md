@@ -1,4 +1,4 @@
-# 🎓 Aims Home Tuition Website - Project Summary
+# 🎓 Geminstitute Website - Project Summary
 
 ## ✅ Project Completed Successfully!
 
@@ -110,8 +110,8 @@ Or double-click `index.html` in Finder
 ## ✏️ Customization Checklist
 
 ### Must Update:
-- [ ] Phone number: `+91 98765 43210`
-- [ ] Email: `info@aimstuition.com`
+- [ ] Phone number: `7575882581`
+- [ ] Email: `geminstitute13@gmail.com`
 - [ ] Office address in contact.html
 - [ ] Google Maps iframe (2 locations)
 - [ ] Formspree form endpoints (4 forms)
@@ -203,7 +203,7 @@ These numbers animate from 0 to the target value over 2 seconds!
 
 ### Option 2: Mailto (Simple)
 ```html
-<form action="mailto:info@aimstuition.com" method="post" enctype="text/plain">
+<form action="mailto:geminstitute13@gmail.com" method="post" enctype="text/plain">
 ```
 
 ---
@@ -263,8 +263,8 @@ These numbers animate from 0 to the target value over 2 seconds!
 ## 📞 Support Information
 
 ### Contact Details (Update These!)
-- **Phone**: +91 98765 43210
-- **Email**: info@aimstuition.com
+- **Phone**: 7575882581
+- **Email**: geminstitute13@gmail.com
 - **Address**: 123 Education Street, Connaught Place, New Delhi - 110001
 
 ### Office Hours
@@ -299,6 +299,6 @@ tuition/
 
 ---
 
-**Built with ❤️ for Aims Home Tuition**
+**Built with ❤️ for Geminstitute**
 
 *Ready to launch! 🚀*

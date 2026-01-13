@@ -1,4 +1,4 @@
-// JavaScript for Aims Home Tuition Website
+// JavaScript for Geminstitute Website
 
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // ===== CONSOLE MESSAGE =====
-    console.log('%c🎓 Aims Home Tuition', 'font-size: 20px; font-weight: bold; color: #1e3a8a;');
+    console.log('%c🎓 Geminstitute', 'font-size: 20px; font-weight: bold; color: #1e3a8a;');
     console.log('%cWebsite loaded successfully!', 'font-size: 14px; color: #3b82f6;');
     console.log('%cHosted on GitHub Pages', 'font-size: 12px; color: #6b7280;');
     

@@ -1,4 +1,4 @@
-# Aims Home Tuition Website
+# Geminstitute Website
 
 A professional, multi-page static website for a home tuition agency. Built with HTML, CSS, and JavaScript, designed to be hosted on GitHub Pages.
 
@@ -57,8 +57,8 @@ tuition/
 
 ### Update Contact Information
 Search for the following in all HTML files and replace with your actual information:
-- Phone: `+91 98765 43210`
-- Email: `info@aimstuition.com`
+- Phone: `7575882581`
+- Email: `geminstitute13@gmail.com`
 - Address: Update the office address in `contact.html`
 
 ### Configure Form Submissions
@@ -209,6 +209,6 @@ Consider adding:
 
 ---
 
-**Built with ❤️ for Aims Home Tuition**
+**Built with ❤️ for Geminstitute**
 
 *Last Updated: January 2024*
